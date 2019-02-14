@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+   }
+
+   html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #468bdabd;
+   }
+   .main-container {
+       display: grid;
+       height: 100%;
+       grid-template-rows: 1fr 12fr 1fr;
+       border: 1px dashed #000000
+   }
+   .row-one, .row-two, .row-three{
+       display: grid;
+       grid-template-columns: 1fr 5fr 2fr;
+       padding: 10px;
+   }
+   .row-two{
+       display: grid;
+       background-color: #c5e8ff
+   }
+   .row-three{
+       display:grid;
+   }
+   .container-padding{
+       margin: 8px;
+       border: 1px dashed black;
+   }
